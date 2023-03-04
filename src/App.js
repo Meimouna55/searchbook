@@ -13,10 +13,10 @@ function App() {
     <>
       <NaveBar />
       <Routes className="container">
-        <Route path="/" element={<Home />} />
-        <Route path="/home.js" element={<Home />} />
-        <Route path="/NewBook.js" element={<NewBook />} />
-        <Route path="/Book.js" element={<Book />} />
+        <Route path="/searchbook/" element={<Home />} />
+        <Route path="/searchbook/home.js" element={<Home />} />
+        <Route path="/searchbook/NewBook.js" element={<NewBook />} />
+        <Route path="/searchbook/Book.js" element={<Book />} />
       </Routes>
     </>
   );
