@@ -13,6 +13,7 @@ function App() {
     <>
       <NaveBar />
       <Routes className="container">
+        <Route path="/" element={<Home />} />
         <Route path="/home.js" element={<Home />} />
         <Route path="/NewBook.js" element={<NewBook />} />
         <Route path="/Book.js" element={<Book />} />
