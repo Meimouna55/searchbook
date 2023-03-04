@@ -5,13 +5,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { doc, getDoc } from "firebase/firestore";
 // import { db } from "./Firebase";
 // import NaveBar from "./navbar";
-import Book from "./Book";
+// import Book from "./Book";
 
 // import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 // import Form from "react-bootstrap/Form";
-import { getDocs, collection, onSnapshot, query } from "firebase/firestore";
+import { collection, onSnapshot, query } from "firebase/firestore";
 import { db } from "./Firebase";
 function Home() {
   const [books, setBooks] = useState([]);
@@ -38,7 +38,7 @@ function Home() {
         about: doc.data().about,
       }));
       setBooks(temp);
-      console.log(temp);
+      console.log(mydata);
     });
   }, []);
 
