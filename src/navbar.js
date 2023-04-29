@@ -14,7 +14,7 @@ export default function NaveBar() {
       >
         <nav>
           <CustomLink
-            to="./home.js"
+            to="/searchbook/home.js"
             style={{
               float: "right",
               color: "white",
@@ -30,7 +30,7 @@ export default function NaveBar() {
             الصفحة الرئيسية
           </CustomLink>
           <CustomLink
-            to="./NewBook.js"
+            to="/searchbook/NewBook.js"
             style={{
               float: "right",
               color: "white",
